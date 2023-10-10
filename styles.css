@@ -1,0 +1,156 @@
+body {
+    background-color: #e9ffff;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+header {
+    background-color: #5CA5A5;
+    padding-bottom: 5%;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+.box {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 90%;
+    background-color: rgb(255, 255, 255);
+    margin: 1em;
+    padding: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+    transition: background-color 0.3s, transform 0.3s, box-shadow 0.3s, filter 0.3s;
+}
+
+.box:hover {
+    background-color: #5CA5A5;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+    transform: scale(1.03);
+    cursor: pointer;
+}
+
+.compartment {
+    flex: 1;
+    display: flex;
+    align-items: center;
+}
+
+.vertical-content {
+    flex-direction: column;
+}
+
+button {
+    background-color: #5CA5A5;
+    color: white;
+    padding: 5px 10px;
+    border: none;
+    cursor: pointer;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    flex: 1;
+}
+
+@media (max-width: 600px) {
+    .box.overflowed .compartment button {
+        margin-right: 0;
+    }
+
+    .content {
+        font-size: 16px;
+    }
+}
+
+.rounded-text {
+    border: 2px solid #5CA5A5;
+    border-radius: 20px;
+    padding: 5px 10px;
+    margin: 5px;
+    display: inline-block;
+    background-color: white;
+    color: #5CA5A5;
+    font-weight: bold;
+}
+
+.rounded-featured {
+    background-color: black;
+    color: white;
+    border: none;
+}
+
+.rounded-new {
+    background-color: #5CA5A5;
+    color: white;
+    border: none;
+}
+
+.bold-text {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.new-job-box img.job-image {
+    height: 100px; 
+    width: auto; 
+}
+.delete-button-container {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.delete-button {
+    background-color: #FF6666;
+    color: white;
+    padding: 5px 10px;
+    border: none;
+    cursor: pointer;
+    border-top-right-radius: 8px;
+}
+
+
+.filter-form {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.clear-button {
+    background-color: #FF6666;
+    color: white;
+    padding: 5px 10px;
+    border: none;
+    cursor: pointer;
+    border-radius: 8px;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+.clear-button:hover {
+    background-color: #FF5555;
+}
+
+ .new-job-box img.job-image {
+    height: 100px; 
+    width: auto; 
+    border-radius: 50%; 
+}
+
+
+#addJobButton {
+    margin-bottom: 20px;
+}

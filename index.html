@@ -1,0 +1,460 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="./styles.css">
+    <script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
+    <script src="./script.js"></script>
+    <title>WebAssignment1</title>
+</head>
+<body>
+    <header>
+        <img src="./images/bg-header-desktop.svg" alt="Header Image">
+        <div class="center">
+            <div id="skillFilters">
+               
+            </div>
+            <button id="clearFilters" class="clear-button">Clear Filters</button>
+        </div>
+    </header>
+    <div class="container">       
+        <div class="box">
+            
+
+            <div class="delete-button-container">
+                <button class="delete-button">Delete</button>
+            </div>
+
+            <div class="compartment">
+                <img src="images/photosnap.svg" alt="Image 1">
+            </div>
+
+            <div class="compartment vertical-content">
+                <div class="content">
+                    <div class="compartment">
+                        <div class="content">
+                            <span style="color: #5CA5A5;"><b>Photosnap</b></span>
+                        </div>
+                        <div class="rounded-text rounded-featured">Featured</div>
+                        <div class="rounded-text rounded-new">New!</div>
+                    </div>
+                    <div class="content">
+                        <p class="bold-text">Senior Frontend Developer</p>
+                    </div>
+                    <div class="content">
+                        <span style="color: rgb(193, 193, 193);">1d ago&nbsp;.&nbsp;Full Time&nbsp;.&nbsp;USA only</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="compartment">
+                <button>Frontend</button>
+                <button>Senior</button>
+                <button>HTML</button>
+                <button>CSS</button>
+                <button>Javascript</button>
+            </div>
+        </div>
+
+        
+
+        <!-- Second Compartment (Manage) -->
+        <div class="box">
+
+
+            <div class="delete-button-container">
+                <button class="delete-button">Delete</button>
+            </div>
+
+            <div class="compartment">
+                <img src="./images/manage.svg" alt="Image 2">
+            </div>
+
+            <div class="compartment vertical-content">
+                <div class="content">
+                    <div class="compartment">
+                        <div class="content">
+                            <span style="color: #5CA5A5;"><b>Manage</b></span>
+                        </div>
+                        <div class="rounded-text rounded-featured">Featured</div>
+                        <div class="rounded-text rounded-new">New!</div>
+                    </div>
+                    <div class="content">
+                        <p class="bold-text">Fullstack Developer</p>
+                    </div>
+                    <div class="content">
+                        <span style="color: rgb(193, 193, 193);">1d ago&nbsp;.&nbsp;Part Time&nbsp;.&nbsp;Remote</span>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="compartment">
+                <button>Fullstack</button>
+                <button>Midweight</button>
+                <button>Python</button>
+                <button>React</button>
+            </div>
+
+
+        </div>
+        <!-- Third Box (Account) -->
+        <div class="box">
+
+            <div class="delete-button-container">
+                <button class="delete-button">Delete</button>
+            </div>
+
+            <div class="compartment">
+                <img src="./images/account.svg" alt="Image 3">
+            </div>
+
+            <div class="compartment vertical-content">
+                <div class="content">
+                    <div class "compartment">
+                        <div class="content">
+                            <span style="color: #5CA5A5;"><b>Account</b></span>
+                        </div>
+                        <div class="rounded-text rounded-new">New!</div>
+                        <!--<div class="rounded-text rounded-featured">Featured</div>-->
+
+                    </div>
+                    <div class="content">
+                        <p class="bold-text">Junior Frontend Developer</p>
+                    </div>
+                    <div class="content">
+                        <span style="color: rgb(193, 193, 193);">2d ago&nbsp;.&nbsp;Part Time&nbsp;.&nbsp;USA only</span>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="compartment">
+                <button>Frontend</button>
+                <button>Junior</button>
+                <button>React</button>
+                <button>Sass</button>
+                <button>Javascript</button>
+            </div>
+
+        </div>
+
+        <!-- Fourth Box (MyHome) -->
+        <div class="box">
+
+            <div class="delete-button-container">
+                <button class="delete-button">Delete</button>
+            </div>
+
+            <div class="compartment">
+                <img src="./images/myhome.svg" alt="Image 4">
+            </div>
+
+            <div class="compartment vertical-content">
+                <div class="content">
+                    <div class="compartment">
+                        <div class="content">
+                            <span style="color: #5CA5A5;"><b>MyHome</b></span>
+                        </div>
+                        <!--<div class="rounded-text rounded-featured">Featured</div>
+                        <div class="rounded-text rounded-new">New!</div>-->
+                    </div>
+                    <div class="content">
+                        <p class="bold-text">Junior Frontend Developer</p>
+                    </div>
+                    <div class="content">
+                        <span style="color: rgb(193, 193, 193);">5d ago&nbsp;.&nbsp;Contract&nbsp;.&nbsp;USA only</span>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="compartment">
+                <button>Frontend</button>
+                <button>Junior</button>
+                <button>CSS</button>
+                <button>Javascript</button>
+            </div>
+
+        </div>
+
+        <!-- Fifth Box (Loop Studios) -->
+        <div class="box">
+
+            <div class="delete-button-container">
+                <button class="delete-button">Delete</button>
+            </div>
+
+            <div class="compartment">
+                <img src="./images/loop-studios.svg" alt="Image 5">
+            </div>
+
+            <div class="compartment vertical-content">
+                <div class="content">
+                    <div class="compartment">
+                        <div class="content">
+                            <span style="color: #5CA5A5;"><b>Loop Studios</b></span>
+                        </div>
+                        <!-- <div class="rounded-text rounded-featured">Featured</div>
+                        <div class="rounded-text rounded-new">New!</div>-->
+                    </div>
+                    <div class="content">
+                        <p class="bold-text">Software Engineer</p>
+                    </div>
+                    <div class="content">
+                        <span style="color: rgb(193, 193, 193);">1w ago&nbsp;.&nbsp;Full Time&nbsp;.&nbsp;Worldwide</span>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="compartment">
+                <button>Fullstack</button>
+                <button>Midweight</button>
+                <button>Javascript</button>
+                <button>Sass</button>
+                <button>Ruby</button>
+            </div>
+
+        </div>
+
+        <!-- Sixth Compartment (Faceit) -->
+
+        <div class="box">
+
+            <div class="delete-button-container">
+                <button class="delete-button">Delete</button>
+            </div>
+
+            <div class="compartment">
+                <img src="./images/faceit.svg" alt="Image 6">
+            </div>
+
+            <div class="compartment vertical-content">
+                <div class="content">
+                    <div class="compartment">
+                        <div class="content">
+                            <span style="color: #5CA5A5;"><b>Faceit</b></span>
+                        </div>
+                        <!-- <div class="rounded-text rounded-featured">Featured</div>
+                        <div class="rounded-text rounded-new">New!</div>-->
+                    </div>
+                    <div class="content">
+                        <p class="bold-text">Junior Backend Developer</p>
+                    </div>
+                    <div class="content">
+                        <span style="color: rgb(193, 193, 193);">2w ago&nbsp;.&nbsp;Full Time&nbsp;.&nbsp;UK only</span>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="compartment">
+                <button>Backend</button>
+                <button>Junior</button>
+                <button>Ruby</button>
+                <button>RoR</button>
+            </div>
+
+        </div>
+
+        <!-- Seventh Box (Shortly) -->
+        <div class="box">
+
+            <div class="delete-button-container">
+                <button class="delete-button">Delete</button>
+            </div>
+
+            <div class="compartment">
+                <img src="./images/shortly.svg" alt="Image 7">
+            </div>
+
+            <div class="compartment vertical-content">
+                <div class="content">
+                    <div class="compartment">
+                        <div class="content">
+                            <span style="color: #5CA5A5;"><b>Shortly</b></span>
+                        </div>
+                        <!--<div class="rounded-text rounded-featured">Featured</div>
+                        <div class="rounded-text rounded-new">New!</div>-->
+                    </div>
+                    <div class="content">
+                        <p class="bold-text">Junior Developer</p>
+                    </div>
+                    <div class="content">
+                        <span style="color: rgb(193, 193, 193);">2w ago&nbsp;.&nbsp;Full Time&nbsp;.&nbsp;Worldwide</span>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="compartment">
+                <button>Frontend</button>
+                <button>Junior</button>
+                <button>HTML</button>
+                <button>Sass</button>
+                <button>Javascript</button>
+            </div>
+
+        </div>
+
+        <!-- Eighth Box (Insure) -->
+
+        <div class="box">
+
+            <div class="delete-button-container">
+                <button class="delete-button">Delete</button>
+            </div>
+
+            <div class="compartment">
+                <img src="./images/insure.svg" alt="Image 8">
+            </div>
+
+            <div class="compartment vertical-content">
+                <div class="content">
+                    <div class="compartment">
+                        <div class="content">
+                            <span style="color: #5CA5A5;"><b>Insure</b></span>
+                        </div>
+                        <!--<div class="rounded-text rounded-featured">Featured</div>
+                        <div class="rounded-text rounded-new">New!</div>-->
+                    </div>
+                    <div class="content">
+                        <p class="bold-text">Junior Frontend Developer</p>
+                    </div>
+                    <div class="content">
+                        <span style="color: rgb(193, 193, 193);">2w ago&nbsp;.&nbsp;Full Time&nbsp;.&nbsp;USA only</span>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="compartment">
+                <button>Frontend</button>
+                <button>Junior</button>
+                <button>Vue</button>
+                <button>Javascript</button>
+                <button>Sass</button>
+            </div>
+
+        </div>
+        <!-- Ninth Compartment (Eyebox.co) -->
+
+        <div class="box">
+
+            <div class="delete-button-container">
+                <button class="delete-button">Delete</button>
+            </div>
+
+            <div class="compartment">
+                <img src="./images/eyecam-co.svg" alt="Image 1">
+            </div>
+
+            <div class="compartment vertical-content">
+                <div class="content">
+                    <div class="compartment">
+                        <div class="content">
+                            <span style="color: #5CA5A5;"><b>Eyecam Co.</b></span>
+                        </div>
+                        <!--<div class="rounded-text rounded-featured">Featured</div>
+                        <div class="rounded-text rounded-new">New!</div>-->
+                    </div>
+                    <div class="content">
+                        <p class="bold-text">Full Stack Engineer </p>
+                    </div>
+                    <div class="content">
+                        <span style="color: rgb(193, 193, 193);">3w ago&nbsp;.&nbsp;Full Time&nbsp;.&nbsp;Worldwide</span>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="compartment">
+                <button>Fullstack</button>
+                <button>Midweight</button>
+                <button>Javascript</button>
+                <button>Django</button>
+                <button>Pyhton</button>
+            </div>
+
+
+        </div>
+
+        <!-- Tenth Box (The Air Filter Company) -->
+
+        <div class="box">
+
+            <div class="delete-button-container">
+                <button class="delete-button">Delete</button>
+            </div>
+
+            <div class="compartment">
+                <img src="./images/the-air-filter-company.svg" alt="Image 10">
+            </div>
+
+            <div class="compartment vertical-content">
+                <div class="content">
+                    <div class="compartment">
+                        <div class="content">
+                            <span style="color: #5CA5A5;"><b>The Air Filter Company</b></span>
+                        </div>
+                        <!--<div class="rounded-text rounded-featured">Featured</div>
+                        <div class="rounded-text rounded-new">New!</div>-->
+                    </div>
+                    <div class="content">
+                        <p class="bold-text">Front-end Dev </p>
+                    </div>
+                    <div class="content">
+                        <span style="color: rgb(193, 193, 193);">1mo ago&nbsp;.&nbsp;Part Time&nbsp;.&nbsp;Worldwide</span>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="compartment">
+                <button>Frontend</button>
+                <button>Junior</button>
+                <button>React</button>
+                <button>Sass</button>
+                <button>Javascript</button>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- Add Job button outside of the job boxes -->
+    <button id="addJobButton" class="add-button">Add Job (+)</button>
+
+  
+    <div id="jobFormModal" class="modal">
+        <div class="modal-content">
+            <span class="close" id="closeModal">&times;</span>
+            <h2>Add New Job</h2>
+            <form id="jobForm">
+                <label for="companyName">Company Name:</label>
+                <input type="text" id="companyName" required>
+                <label for="designation">Designation:</label>
+                <input type="text" id="designation" required>
+                <label for="imageUrl">Image URL:</label>
+                <input type="text" id="imageUrl" required>
+                <label for="skill1">Skill 1:</label>
+                <input type="text" id="skill1">
+                <label for="skill2">Skill 2:</label>
+                <input type="text" id="skill2">
+                <label for="skill3">Skill 3:</label>
+                <input type="text" id="skill3">
+                <label for="skill4">Skill 4:</label>
+                <input type="text" id="skill4">
+                <label for="skill5">Skill 5:</label>
+                <input type="text" id="skill5">
+                <button type="submit">Add Job</button>
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>
+
+
+
